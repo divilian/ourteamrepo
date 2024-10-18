@@ -1,3 +1,4 @@
+/** A Cat is a special kind of animal that rules other humans. */
 
 class Cat extends Animal {
 
