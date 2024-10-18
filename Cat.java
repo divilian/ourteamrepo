@@ -11,8 +11,9 @@ class Cat extends Animal {
 
     String makeNoise() {
         if (this.hungry) {
-            return "meeoooowwww";
+            return "meow";
         } else {
+            this.hungry = false;
             return "prrrrr";
         }
     }
