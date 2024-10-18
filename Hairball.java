@@ -1,10 +1,10 @@
 
 class Hairball extends Exception {
 
-    private double weightInPounds;
+    private double wtInPounds;
 
     Hairball() {
-        this.weightInPounds = 1.5;
+        this.wtInPounds = 1.5;
     }
 
 }
