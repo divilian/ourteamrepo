@@ -5,8 +5,8 @@ class Cat extends Animal {
     private boolean hungry;
 
     Cat(boolean mangy) {
-        mangy = mangy;
-        hungry = false;
+        this.mangy = mangy;
+        this.hungry = false;
     }
 
     String makeNoise() {
